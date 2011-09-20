@@ -4,11 +4,11 @@ To add this repository to your projects add the following lines to your pom.xml 
     <repositories>
       <repository>
         <id>urmuzov-snapshots</id>
-        <url>https://github.com/urmuzov/maven-repository/raw/master/snapshots</url>
+        <url>http://urmuzov.github.com/maven-repository/snapshots</url>
       </repository>
       <repository>
         <id>urmuzov-releases</id>
-        <url>https://github.com/urmuzov/maven-repository/raw/master/releases</url>
+        <url>http://urmuzov.github.com/maven-repository/releases</url>
       </repository>
     </repositories>
     ...
