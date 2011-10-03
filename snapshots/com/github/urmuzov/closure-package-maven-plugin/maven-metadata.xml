@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.urmuzov</groupId>
+  <artifactId>closure-package-maven-plugin</artifactId>
+  <versioning>
+    <latest>1.0.2-SNAPSHOT</latest>
+    <versions>
+      <version>1.0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20111003132348</lastUpdated>
+  </versioning>
+</metadata>

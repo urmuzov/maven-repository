@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.urmuzov</groupId>
+  <artifactId>closure-compiler-maven-plugin-example1</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20111003132356</lastUpdated>
+  </versioning>
+</metadata>

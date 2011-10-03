@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.github.urmuzov</groupId>
+  <artifactId>closure-library-maven-wrapper</artifactId>
+  <version>1.0.2-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20111003.132352</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20111003132352</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.2-20111003.132352-1</value>
+        <updated>20111003132352</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.2-20111003.132352-1</value>
+        <updated>20111003132352</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
