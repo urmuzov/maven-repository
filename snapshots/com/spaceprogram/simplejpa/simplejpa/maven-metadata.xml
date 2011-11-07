@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.spaceprogram.simplejpa</groupId>
+  <artifactId>simplejpa</artifactId>
+  <versioning>
+    <versions>
+      <version>1.7-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20111107122401</lastUpdated>
+  </versioning>
+</metadata>
