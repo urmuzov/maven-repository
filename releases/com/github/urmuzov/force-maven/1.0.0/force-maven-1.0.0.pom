@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.urmuzov</groupId>
+    <artifactId>force-maven</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+    <name>force-maven</name>
+    <modules>
+        <module>codegen-plugin</module>
+        <module>example</module>
+    </modules>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <distributionManagement>
+        <repository>
+            <id>urmuzov-releases</id>
+            <url>http://urmuzov.github.com/maven-repository/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>urmuzov-snapshot</id>
+            <url>http://urmuzov.github.com/maven-repository/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+</project>

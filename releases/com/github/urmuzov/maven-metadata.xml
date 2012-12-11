@@ -11,5 +11,10 @@
       <prefix>closure-compiler</prefix>
       <artifactId>closure-compiler-maven-plugin</artifactId>
     </plugin>
+    <plugin>
+      <name>force-codegen-maven-plugin</name>
+      <prefix>force-codegen</prefix>
+      <artifactId>force-codegen-maven-plugin</artifactId>
+    </plugin>
   </plugins>
 </metadata>

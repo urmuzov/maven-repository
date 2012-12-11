@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.github.urmuzov</groupId>
+        <artifactId>force-maven</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <artifactId>force-codegen-example</artifactId>
+    <packaging>jar</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <optimize>true</optimize>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.github.urmuzov</groupId>
+                <artifactId>force-codegen-maven-plugin</artifactId>
+                <version>${project.version}</version>
+                <configuration>
+                    <debug>true</debug>
+                    <objectsDir>${basedir}/src/main/resources/objects</objectsDir>
+                    <outputPackage>com.urmuzov.forcetest</outputPackage>
+                    <customObjectCapitalize>true</customObjectCapitalize>
+                    <customObjectPrefix>empty</customObjectPrefix>
+                    <customObjectSuffix>empty</customObjectSuffix>
+                    <customFieldCapitalize>false</customFieldCapitalize>
+                    <customFieldPrefix>empty</customFieldPrefix>
+                    <customFieldSuffix>C</customFieldSuffix>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>generate-partner-metadata</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
