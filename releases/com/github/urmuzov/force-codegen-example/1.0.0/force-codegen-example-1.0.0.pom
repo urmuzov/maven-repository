@@ -41,6 +41,8 @@
                     <customFieldCapitalize>false</customFieldCapitalize>
                     <customFieldPrefix>empty</customFieldPrefix>
                     <customFieldSuffix>C</customFieldSuffix>
+                    <customRelationFieldPrefix>empty</customRelationFieldPrefix>
+                    <customRelationFieldSuffix>R</customRelationFieldSuffix>
                 </configuration>
                 <executions>
                     <execution>
