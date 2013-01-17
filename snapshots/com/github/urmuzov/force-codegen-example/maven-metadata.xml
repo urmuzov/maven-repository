@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.urmuzov</groupId>
+  <artifactId>force-codegen-example</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20130117220546</lastUpdated>
+  </versioning>
+</metadata>
