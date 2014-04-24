@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.github.urmuzov</groupId>
+  <artifactId>force-codegen-example</artifactId>
+  <version>2.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20140424.091225</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20140424091225</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.0.1-20140424.091225-1</value>
+        <updated>20140424091225</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.0.1-20140424.091225-1</value>
+        <updated>20140424091225</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
